@@ -1,4 +1,5 @@
-/* eslint-disable prettier/prettier */
+// @see https://eslint.bootcss.com/docs/rules/
+
 module.exports = {
   env: {
     browser: true,
