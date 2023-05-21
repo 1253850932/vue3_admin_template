@@ -10,5 +10,6 @@ const useSettingStore = defineStore('Setting', {
   },
   actions: {},
   getters: {},
+  persist: true,
 })
 export default useSettingStore

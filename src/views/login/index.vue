@@ -10,7 +10,7 @@ const router = useRouter()
 const useStore = useUserStore()
 const form = reactive({
   username: 'admin',
-  password: '111111',
+  password: 'atguigu123',
 })
 const loginForms = ref()
 // 表单校验

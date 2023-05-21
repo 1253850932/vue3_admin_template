@@ -19,6 +19,7 @@ import 'element-plus/theme-chalk/dark/css-vars.css'
 import router from './router'
 //引入仓库
 import store from './store'
+
 //获取应用实例对象
 const app = createApp(App)
 //安装element-plus插件
@@ -32,6 +33,7 @@ app.use(store)
 //注册模板路由
 app.use(router)
 //引入路由鉴权文件
+import '@/utils/permission'
 //引入自定义指令文件
 //将应用挂载到挂载点上
 app.mount('#app')

@@ -70,7 +70,7 @@ const routes = useStore.menuRoutes
     left: $menu-width;
     width: calc(100% - $menu-width);
     height: $tabbar-height;
-    background-color: $tabbar-background-color;
+    // background-color: $tabbar-background-color;
     transition: all 0.3s;
 
     &.fold {
@@ -86,9 +86,8 @@ const routes = useStore.menuRoutes
     width: calc(100% - $menu-width);
     height: calc(100vh - $tabbar-height);
     overflow: scroll;
-    background-color: aqua;
     transition: all 0.3s;
-
+    padding-left: 10px;
     &.fold {
       left: $menu-fold-width;
       width: calc(100% - $menu-fold-width);
